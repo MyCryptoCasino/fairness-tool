@@ -1,6 +1,6 @@
-# Crashouse Fairness Tool
+# My Crypto Casino Fairness Tool
 
-Client-side verifier for Crashouse crash game fairness on Solana. The UI fetches three
+Client-side verifier for My Crypto Casino crash game fairness on Solana. The UI fetches three
 transaction signatures (commit, blockhash, reveal) from a backend, pulls on-chain logs
 from a public Solana RPC, and recomputes the crash point locally so players can audit
 the flow.
