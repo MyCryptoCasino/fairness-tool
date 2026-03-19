@@ -133,7 +133,7 @@ const FairnessPage = ({ initialGameId = "" }: FairnessPageProps) => {
 
 	return (
 		<div className="text-color-text-secondary relative min-h-screen w-full overflow-hidden px-4 pt-4 md:px-8">
-			<span className="text-primary text:lg font-bold md:text-2xl">Crashouse</span>
+			<span className="text-primary text:lg font-bold md:text-2xl">My Crypto Casino</span>
 			<div className="relative mx-auto flex min-h-screen w-full max-w-6xl flex-col pt-10 pb-20 md:px-6">
 				<main className="flex flex-1 flex-col gap-6">
 					<section className="max-w-2xl space-y-4">
