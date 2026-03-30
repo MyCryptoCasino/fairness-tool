@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import { Blocks, Check, Dices, FileCheck, FileLock, Gamepad2 } from "lucide-react";
 import { useSearchParams } from "next/navigation";
 import { DEFAULT_NETWORK, SOURCE_URL } from "@/lib/config";
