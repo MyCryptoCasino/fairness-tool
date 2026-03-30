@@ -9,9 +9,14 @@ const poppins = Poppins({
 	weight: ["300", "400", "500", "600", "700"],
 });
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export const metadata: Metadata = {
 	title: "My Crypto Casino Fairness Tool",
 	description: "Verify on-chain fairness for My Crypto Casino crash games.",
+	icons: {
+		icon: `${basePath}/favicon.svg`,
+	},
 };
 
 export default function RootLayout({

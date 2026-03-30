@@ -13,6 +13,9 @@ const nextConfig: NextConfig = {
 	...(isStaticExport ? { output: "export", trailingSlash: true } : {}),
 	basePath: resolvedBasePath || undefined,
 	assetPrefix: resolvedBasePath || undefined,
+	env: {
+		NEXT_PUBLIC_BASE_PATH: resolvedBasePath,
+	},
 	images: {
 		// Disable image optimization so the static export works on GitHub Pages.
 		unoptimized: true,
