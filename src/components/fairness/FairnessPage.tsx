@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import { Blocks, Check, Dices, FileCheck, FileLock, Gamepad2 } from "lucide-react";
 import { useSearchParams } from "next/navigation";
 import { DEFAULT_NETWORK, SOURCE_URL } from "@/lib/config";
@@ -133,7 +134,7 @@ const FairnessPage = ({ initialGameId = "" }: FairnessPageProps) => {
 
 	return (
 		<div className="text-color-text-secondary relative min-h-screen w-full overflow-hidden px-4 pt-4 md:px-8">
-			<img
+			<Image
 				src="/myCryptoCasino_dark.svg"
 				alt="MyCryptoCasino Logo"
 				width={156}
