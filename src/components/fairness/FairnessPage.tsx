@@ -134,8 +134,8 @@ const FairnessPage = ({ initialGameId = "" }: FairnessPageProps) => {
 
 	return (
 		<div className="text-color-text-secondary relative min-h-screen w-full overflow-hidden px-4 pt-4 md:px-8">
-			<Image
-				src="/myCryptoCasino_dark.svg"
+			<img
+				src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/myCryptoCasino_dark.svg`}
 				alt="MyCryptoCasino Logo"
 				width={156}
 				height={24}
