@@ -12,6 +12,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
 	title: "My Crypto Casino Fairness Tool",
 	description: "Verify on-chain fairness for My Crypto Casino crash games.",
+	icons: {
+		icon: "/favicon.svg",
+	},
 };
 
 export default function RootLayout({
